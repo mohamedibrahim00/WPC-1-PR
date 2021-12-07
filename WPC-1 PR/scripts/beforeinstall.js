@@ -36,7 +36,7 @@ if (!${settings.galera:false}) {
   resp.nodes.push({
     nodeType: "mariadb-dockerized",
     tag: "10.3.20",
-    count: 1,
+    count: 2,
     flexibleCloudlets: ${settings.db_flexibleCloudlets:64},
     fixedCloudlets: ${settings.db_fixedCloudlets:1},
     diskLimit: ${settings.db_diskLimit:25},
